@@ -187,6 +187,7 @@ app.get('/donated_donors', async(req, res) => {
 
 });
 
+
 app.post('/markAsDonated', async(req, res) => {
     const donor_id = req.body.donor_id; // Assuming donor_id is passed in the request body
     console.log(donor_id);
